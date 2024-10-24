@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", process.env.REACT_APP_API_KEY); {/*Your Key goes here*/ }
+        formData.append("access_key", import.meta.env.VITE_API_KEY);
 
 
         const object = Object.fromEntries(formData);
@@ -44,13 +44,13 @@ const Contact = () => {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nihil natus libero, quaerat enim obcaecati nostrum quae illum, alias a optio ab laboriosam, quod iste nesciunt cupiditate harum? Perferendis, ducimus.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
-                            <img src={mail_icon} alt="" /><p>ksjeevithakannan@gmail.com</p>
+                            <img src={mail_icon} alt="" /><p>ksjeevithakannan123@gmail.com</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={call_icon} alt="" /> <p>+91 86675-10219</p>
+                            <img src={call_icon} alt="" /> <p>+91 86675 10219</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon} alt="" /> <p>BIT, Sathy, Erode</p>
+                            <img src={location_icon} alt="" /> <p>Erode, Tamil Nadu, India</p>
                         </div>
                     </div>
                 </div>
