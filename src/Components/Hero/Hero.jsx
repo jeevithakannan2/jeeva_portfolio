@@ -1,13 +1,13 @@
 import React from 'react'
 import './Hero.css'
 import jeeva from '../../assets/jeeva.jpg'
-import resume from '../../assets/myresume/resume.pdf' 
+import resume from '../../assets/myresume/resume.pdf'
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={jeeva} alt="" />
-      <h1>I'm Jeevitha Kannan</h1>
+      <h1>I'm <span>Jeevitha Kannan</span></h1>
       <p>A student and backend developer</p>
       <div className="hero-action">
         <div className="hero-connect">
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <div className="hero-resume">
           <a href={resume} target="_blank" rel="noopener noreferrer">My Resume</a>
-          </div>
+        </div>
       </div>
     </div>
   )
