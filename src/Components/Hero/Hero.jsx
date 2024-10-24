@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={jeeva} alt="" />
-      <h1><span>I'm Jeevitha Kannan,</span> Linux Developer</h1>
-      <p>Hey Welcome... This is Jeevitha Kannan from abcd Technologies. Professional App Developer & Backend Developer. I am a quick learner that makes me to survive in all environments</p>
+      <h1>I'm Jeevitha Kannan</h1>
+      <p>A student and backend developer</p>
       <div className="hero-action">
         <div className="hero-connect">
           <a
